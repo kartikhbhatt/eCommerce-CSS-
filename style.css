@@ -235,3 +235,87 @@ button.normal{
    background-color: #fff;
    transition: 0.2s;
 }
+
+
+#banners{
+   margin: 0 60px;
+}
+
+#banners h2, h4, span{
+   color: rgb(248,248,248);
+}
+
+#banners .big-banner{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+#banners .big-banner div{
+   min-width: 500px;
+   margin: 15px;
+   height: 300px;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   justify-content: center;
+   padding: 20px;
+   background-size: cover;
+   backdrop-filter: blur(8%);
+
+}
+#banners .big-banner-1{
+   background-image: url(img/banner/b17.jpg);
+}
+#banners .big-banner-2{
+   background-image: url(img/banner/b10.jpg);
+}
+#banners .small-banner-1{
+   background-image: url(img/banner/b7.jpg);
+}
+#banners .small-banner-2{
+   background-image: url(img/banner/b4.jpg);
+}
+#banners .small-banner-3{
+   background-image: url(img/banner/b18.jpg);
+}
+
+#banners .big-banner button{
+   margin-top: 40px;
+   padding: 12px 20px;
+   font-size: 16px;
+   font-weight: 500;
+   background: transparent;
+   color: rgb(248, 248, 248);
+   border: 1px solid rgb(248, 248, 248);
+   cursor: pointer;
+   transition: 0.3s ease;
+}
+
+#banners .big-banner div button:hover{
+   background-color: #088178;
+   border: 1px #088178;
+}
+
+#banners .small-banner{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+}
+#banners .small-banner div{
+   min-width: 370px;
+   height: 200px;
+   margin: 15px;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   padding: 25px;
+   background-size: cover;
+}
+
+#banners .small-banner h2{
+   font-size: 25px;
+}
+#banners .small-banner h5{
+   color: #771818;
+}
